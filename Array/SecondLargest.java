@@ -13,7 +13,7 @@ class SecondLargest {
     
     for(int i=0;i<n;i++){
         if(arr[i]>secmax && max!=arr[i]){
-            secmax=arr[i];
+            secmax=arr[i]; 
         }
     }
     return secmax;
